@@ -1,5 +1,5 @@
 # Timer
-A simple Timer desktop app built with Win32 API in C
+A simple Timer desktop app built with Win32 API in C++
 The idea is to simulate a kitchen timer/stopwatch
 <br>
 ![Screenshot](https://github.com/chrismes23/Timer/blob/main/res/screenshot1.png?raw=true)<br>
@@ -7,7 +7,7 @@ The idea is to simulate a kitchen timer/stopwatch
 ## Instructions
 To run the program, firstly clone the repository.Then using MinGW compiler on Windows run
 ```
-gcc src/timer.cpp -o timer.exe -lgdi32 -lwinmm
+g++ src/timer.cpp -o timer.exe -lgdi32 -lwinmm
 ```
 <br>
 
